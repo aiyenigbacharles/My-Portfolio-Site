@@ -3,6 +3,7 @@ import { ExternalLink, Github } from "lucide-react";
 import optitechImg from "@/assets/projects/optitech.png";
 import saidiImg from "@/assets/projects/saidi.png";
 import christechImg from "@/assets/projects/christech.png";
+import remyImg from "@/assets/projects/Remycado.png";
 import sentimentImg from "@/assets/projects/sentiment.png";
 import brainTumorImg from "@/assets/projects/brain-tumor.png";
 import fertilityImg from "@/assets/projects/fertility.png";
@@ -38,6 +39,13 @@ const projects: Project[] = [
     image: christechImg,
     tags: ["React", "TypeScript", "Tailwind CSS", "shadcn/ui"],
     live: "https://christech-services.vercel.app/",
+  },
+  {
+    title: "Remycado Network Services",
+    description: "A premier cement distribution company and a key Dangote Cement distributor operating across North Central Nigeria.",
+    image: remyImg,
+    tags: ["TypeScript", "React", "Tailwind CSS", "shadcn/ui"],
+    live: "https://remycado-networks.vercel.app/",
   },
   {
     title: "Sentiment Analysis of 2023 Presidential Elections",
