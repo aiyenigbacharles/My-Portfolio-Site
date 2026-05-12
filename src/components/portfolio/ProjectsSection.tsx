@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 import optitechImg from "@/assets/projects/optitech.png";
+import klositImg from "@/assets/projects/Klosit.png";
 import saidiImg from "@/assets/projects/saidi.png";
 import christechImg from "@/assets/projects/christech.png";
 import remyImg from "@/assets/projects/Remycado.png";
@@ -25,6 +26,13 @@ const projects: Project[] = [
     image: optitechImg,
     tags: ["Vite", "React", "TypeScript", "Tailwind CSS", "shadcn/ui"],
     live: "https://optitech-consulting-ltd.vercel.app/",
+  },
+  {
+    title: "Klosit",
+    description: "A centralized IT Helpdesk and Asset Management platform designed to streamline technical support for organizations. It provides a unified system for managing support tickets.",
+    image: klositImg,
+    tags: ["React", "Tailwind CSS", "React", "Supabase", "shadcn/ui"],
+    live: "https://klosit.vercel.app/",
   },
   {
     title: "Saidi Nigeria Limited",
